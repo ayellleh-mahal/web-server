@@ -1,0 +1,103 @@
+{
+  // ===== APPEARANCE =====
+  "workbench.colorTheme": "One Monokai",
+  "workbench.iconTheme": "vscode-icons",
+
+  // ===== PERFORMANCE =====
+  "workbench.list.smoothScrolling": false,
+  "editor.cursorSmoothCaretAnimation": "off",
+  "editor.smoothScrolling": false,
+  "editor.minimap.enabled": true,
+  "breadcrumbs.enabled": false,
+
+  // ===== EDITOR CORE =====
+  "editor.fontSize": 14,
+  "editor.fontFamily": "'FiraCode Nerd Font', 'FiraCode NF', 'Cascadia Code', Consolas, monospace",
+  "editor.fontLigatures": true,
+  "editor.lineHeight": 24,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.wordWrap": "on",
+  "editor.renderWhitespace": "boundary",
+  "editor.rulers": [80, 100],
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+
+  // ===== AUTO FORMAT =====
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.organizeImports": "never"
+  },
+
+  // ===== PRETTIER =====
+  "prettier.singleQuote": true,
+  "prettier.semi": true,
+  "prettier.tabWidth": 2,
+  "prettier.trailingComma": "es5",
+  "prettier.jsxSingleQuote": true,
+
+  // ===== HTML =====
+  "html.format.wrapLineLength": 100,
+  "html.format.indentInnerHtml": true,
+
+  // ===== CSS / TAILWIND =====
+  "css.validate": true,
+  "css.lint.unknownAtRules": "ignore",
+  "tailwindCSS.emmetCompletions": true,
+  "tailwindCSS.includeLanguages": {
+    "javascript": "javascript",
+    "javascriptreact": "javascript",
+    "typescriptreact": "typescript"
+  },
+
+  // ===== JAVASCRIPT / TYPESCRIPT =====
+  "js/ts.updateImportsOnFileMove.enabled": "always",
+  "js/ts.suggest.autoImports": true,
+
+  // ===== REACT =====
+  "emmet.includeLanguages": {
+    "php": "html",
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
+  },
+  "emmet.triggerExpansionOnTab": true,
+
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // ===== PHP =====
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
+    "editor.formatOnSave": true
+  },
+
+  // ===== FILES =====
+  "files.autoSave": "off",
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+
+  // ===== EXPLORER =====
+  "explorer.confirmDelete": false,
+  "explorer.compactFolders": false,
+
+  // ===== TERMINAL =====
+  "terminal.integrated.fontFamily": "'FiraCode Nerd Font'",
+  "terminal.integrated.fontSize": 13,
+
+  // ===== RECOMMENDED EXTENSIONS =====
+  "extensions.ignoreRecommendations": false
+}
